@@ -16,4 +16,9 @@ class userService
     $user = UserDAO::getUser($username, $password);
     return $user;
   }
+  public static function getAllUsers()
+  {
+    $users = UserDAO::getAllUsers();
+    return $users;
+  }
   }

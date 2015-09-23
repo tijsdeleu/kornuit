@@ -51,7 +51,7 @@
       <ul>
         <li>adminmenu:</li>
         <li>- <a href="index.php?page=addpost">maak een nieuwe post</a></li>
-        <li>- <a href="makeadmin.php">admin aanduiden/verwijderen</a></li>
+        <li>- <a href="index.php?page=adminlist">admin aanduiden/verwijderen</a></li>
       </ul>
       <?php
       }

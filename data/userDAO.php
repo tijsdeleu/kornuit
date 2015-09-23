@@ -45,4 +45,18 @@ class UserDAO
     return $user;
   }
 
+  public static function getAllUsers()
+  {
+    $sql = "select * from user";
+    $dbh = new PDO(DBConfig::$DB_CONNSTRING, DBConfig::$DB_USERNAME, DBConfig::$DB_PASSWORD);
+    $arrResult = $dbh->query($sql);
+    $users = array();
+    foreach ($arrResult as $rij)
+      {
+      $user = new User($rij["id"], $rij["username"], $rij["password"], $rij["postcode"], $rij["gemeente"], $rij["admin"], $rij["email"]);
+      array_push($users,$user);
+      }
+      $dbh = null;
+      return $users;
+  }
   }

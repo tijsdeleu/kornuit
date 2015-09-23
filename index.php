@@ -40,5 +40,8 @@ if (isset($_GET['page']))
     case "addpost":
       include "presentation/addpost.php";
       break;
+    case "adminlist":
+      include "presentation/adminlist.php";
+      break;
     }
 }

@@ -1,6 +1,6 @@
 <div class="item" id="loginform">
   <?php
-  if (isset($_POST["form"]))
+  if (isset($_POST["formlogin"]))
   {
     $loggeduser = userService::getUserLogin($_POST["username"],$_POST["password"]);
     $_SESSION["user"] = $loggeduser;
@@ -12,14 +12,14 @@
     ?>
     <h1>login</h1>
     <div class="itemtext">
-      <form name="form" method="post" action="">
+      <form name="formlogin" method="post" action="">
         <div id="form"><div>                
-            <label for="form_username" class="required">Username</label>
-            <input type="text" id="form_username" name="username" required="required" /></div><div>                
-            <label for="form_password" class="required">Password</label>
-            <input type="password" id="form_password" name="password" required="required" /></div><div>
-            <button type="submit" id="form_login" name="form[login]">login</button></div>
-          <input type="hidden" id="form__token" name="form[_token]" value="Fvtr4daxxT70beFq8USPopaqHuE3yAxPOjJH-kdjN-w" /></div>
+            <label for="formlogin_username" class="required">Username</label>
+            <input type="text" id="formlogin_username" name="username" required="required" /></div><div>                
+            <label for="formlogin_password" class="required">Password</label>
+            <input type="password" id="formlogin_password" name="password" required="required" /></div><div>
+            <button type="submit" id="formlogin_login" name="formlogin[login]">login</button></div>
+          <input type="hidden" id="formlogin__token" name="formlogin[_token]" value="Fvtr4daxxT70beFq8USPopaqHuE3yAxPOjJH-kdjN-w" /></div>
       </form>
     </div>
     <?php

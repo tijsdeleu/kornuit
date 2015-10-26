@@ -1,15 +1,16 @@
 <div class="item" id="randompictures">
-  <h1>laatste nieuws</h1>
+  <h1>Random pictures</h1>
   <div class="itemtext">
-    <ul>
-      <?php
-      foreach (newspostService::showLatestPosts() as $post)
-        {
+    <?php
+    $arrRandomImages = imageService::showRandomPictures(4);
+    foreach($arrRandomImages as $image)
+      {
       ?>
-      <li><a href="index.php?page=viewpost?postid=<?php print $post->id ?>">[<?php print substr($post->datum,0,10); ?>] <b><?php print $post->titel; ?></b></a></li>
-      <?php
-        }
-        ?>
-    </ul>
+    <a href="<?php print $image->url ?>" data-lightbox="<?php print 'random';?>"><div class="random" style="background-image: url('<?php print $image->url ?>')"></div></a>
+    <?php
+      }
+    ?>
+    <div class="clearfix"></div>
   </div>
 </div>
+

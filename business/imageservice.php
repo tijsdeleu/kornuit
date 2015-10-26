@@ -23,4 +23,11 @@ class imageService
       ArticleImageDAO::deleteArticleImage($image->id);
       }
   }
+  public static function showRandomPictures($aantal)
+  {
+    $arrImages = ArticleImageDAO::getRandomPictures($aantal);
+    return $arrImages;
+  }
+  
+
   }

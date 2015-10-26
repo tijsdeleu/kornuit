@@ -1,0 +1,236 @@
+*
+{
+  margin:0;
+  padding:0;
+}
+
+body
+{
+  background-color:#342F2F;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container
+{
+  width:1200px;
+  margin-left:auto;
+  margin-right:auto;
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-color:#a5d02b;
+}
+
+.container .header
+{
+  width: 100%;
+}
+
+.mainmenu
+{
+  background-color: #BB4650;
+  text-align:center;
+  height:25px;
+  float:left;
+  width:100%;
+}
+.mainmenu ul
+{
+  display:inline-block;
+}
+.mainmenu ul li
+{
+  height:25px;
+  display: block;
+  float:left;
+  margin-left:10px;
+  margin-right:10px;
+  color: #FFFFFF;
+}
+.mainmenu ul li a
+{
+  color: #FFFFFF;
+  padding-left:5px;
+  padding-right:5px;
+  font-size:14px;
+  font-weight: bold;
+  text-decoration: none;
+  padding-bottom:5px;
+}
+.mainmenu ul li:hover
+{
+  background-color: #AAD8F8;
+}
+
+.page
+{
+  width:100%;
+  min-height:100%;
+  float:left;
+}
+.sidebar1
+{
+  width: 50%;
+  float:right;
+}
+.sidebar2
+{
+  padding-top:35px;
+  width: 28%;
+  float:left;
+  margin-left:1%;
+  margin-right:1%;
+}
+
+#loginform form label
+{
+  margin-left:40%;
+  width:10%;
+}
+#loginform form input
+{
+  width:76%;
+  margin-left:12%;
+}
+#loginform form button, #nieuwereactie form button
+{
+  margin-left:25%;
+  width:50%;
+}
+#nieuwereactie form
+{
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
+}
+#nieuwepost form
+{
+  width:50%;
+  margin-left: 10px;
+  float:left;
+}
+#nieuwepost label, #nieuwereactie label
+{
+  display:block;
+}
+#nieuwereactie label
+{
+  font-size:12px;
+}
+#nieuwepost input, #nieuwepost textarea, #nieuwereactie input, #nieuwereactie textarea
+{
+  width:100%;
+}
+#nieuwepost textarea
+{
+  min-height: 400px;
+}
+
+#nieuwereactie textarea
+{
+  min-height: 100px;
+}
+
+#nieuwepost #addpostuitleg
+{
+  float:left;
+}
+
+#addpostuitleg p
+{
+  margin-left:5%;
+}
+
+.content
+{
+  margin-right:15%;
+  width:50%;
+  float:right;
+}
+.item
+{
+  margin-bottom:10px;
+}
+
+.item .itemtext
+{
+  border-radius: 20px;
+  padding-top:10px;
+  padding-bottom:10px;
+  background-color:#fff;
+}
+.item h1
+{
+  background-color:#BB4650;
+  color: #fff;
+  height:16px;
+  font-size:12px;
+  text-transform: uppercase;
+  padding-left:10px;
+  padding-top:1px;
+  width:95%;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+}
+.item h2, .item h3, .item p
+{
+  color:#000;
+  font-size:14px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-top:10px;
+}
+.item p, .item ul li, .item a
+{
+  font-size:12px;
+}
+.iteminfo p
+{
+  font-size:10px;
+}
+.item ul li
+{
+  margin-left:30px;
+  list-style-type: none;
+}
+.contentitle h1
+{
+  font-size:20px;
+  color: #BB4650;
+  text-align: center;
+  text-transform:  uppercase;
+  margin-bottom:10px;
+}
+.editpost
+{
+
+}
+.delete , .edit, .pictureicon
+{
+  width:15px;
+  height:15px;
+  margin-right:10px;
+  float:right;
+}
+
+.itemimages
+{
+  margin-top:10px;
+  text-align:center;
+}
+.itemimages img
+{
+  max-width: 25%;
+}
+
+.clearfix
+{
+  clear:both;
+}
+.footer
+{
+  height:200px;
+  width: 100%;
+  clear:both;
+  background-color: #db6a00;
+}

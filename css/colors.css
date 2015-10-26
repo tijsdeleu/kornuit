@@ -1,0 +1,78 @@
+// KLEUREN
+body
+{
+  background-color:#342F2F;
+}
+
+.mainmenu
+{
+  background-color:#88b018;
+}
+
+.mainmenu ul li a
+{
+  color: #FFFFFF;
+}
+
+.mainmenu ul li:hover
+{
+  background-color: #FFF;
+}
+
+.mainmenu ul li:hover a
+{
+  color:#000;
+}
+
+.header
+{
+  background-image:url(../images/header.png);
+  background-repeat: no-repeat;
+}
+
+.page
+{
+  background-color:#dff2ab;
+}
+
+.sidebar1 .item
+{
+  background-color:#a5d02b;
+}
+
+.sidebar1 .item h1, .content .item h1
+{
+  background-color:#88b018;
+  color:#fff;
+}
+
+.sidebar1 .itemtext ul li a
+{
+  color: #fff;
+}
+
+.contentitle h1
+{
+  color:#fff;
+  background-color:#a5d02b;
+}
+
+.content .item
+{
+   background-color:#f0f5d3;
+}
+
+.inschrijvingsform span
+{
+  color:red;
+}
+
+.inschrijvingsform .radio span
+{
+  color:#000;
+}
+
+.footer
+{
+    background-color: #a5d02b;
+}

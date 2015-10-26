@@ -39,4 +39,21 @@ class ArticleImageDAO
     $dbh = null;
   }
 
+  public static function getRandomPictures($aantal)
+  {
+    $sql = "select * from article_image order by rand() limit " . $aantal;
+    $dbh = new PDO(DBConfig::$DB_CONNSTRING, DBConfig::$DB_USERNAME, DBConfig::$DB_PASSWORD);
+    $arrResult = $dbh->query($sql);
+    $arrImages = array();
+    // RESULT ARRAY UITLEZEN
+    foreach ($arrResult as $rij)
+      {
+      $image = new ArticleImage($rij["id"], $rij["url"], $rij["articleid"]);
+      array_push($arrImages, $image);
+      }
+
+    $dbh = null;
+    return $arrImages;
+  }
+
   }

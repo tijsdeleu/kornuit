@@ -1,0 +1,1 @@
+<script src="js/lightbox/src/js/lightbox.js"></script>

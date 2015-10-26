@@ -1,27 +1,23 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="css/layout.css">
-    <meta charset="UTF-8">
-    <title></title>
-  </head>
+<?php include("locked/head.php"); ?>
   <body>
     <div class="container">
+      <div class="header">
+      </div>
       <?php
       include 'locked/mainmenu.php';
       ?>
-      <div class="header">
-      </div>
       <div class="page">
         <div class="sidebar1">
           <?php
           include 'locked/login.php';
           ?>
+          <?php include("locked/latestposts.php"); ?>
         </div>
         <div class="content">
-          <div class="contentitle"><h1>Middagopvang</h1></div>
           <div class="item">
-            <h1>middagopvang</h1>
+            <h1>Middagopvang</h1>
             <div class="itemtext">
               <p>'s Middags worden de kinderen opgehaald op school. De jongste kinderen gaan mee met de kar, de oudste kinderen stappen naar Kornuit.</p>
 
@@ -49,14 +45,12 @@
             </div>
           </div>
         </div>
-        <div class="sidebar2">
-          <?php include("locked/latestposts.php"); ?>
-        </div>
         <div class="clearfix"></div>
       </div>
       <div class="footer">
         <?php include("locked/footer.php"); ?>
       </div> 
     </div>
+     <?php include ("locked/script.php"); ?>
   </body>
 </html>

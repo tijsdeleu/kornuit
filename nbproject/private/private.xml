@@ -1,28 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>entities/kind.class.php</url>
+            <bookmark id="1">
+                <name/>
+                <line>9</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/presentation/addpost.php</file>
-            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/business/newspostservice.php</file>
-            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/css/layout.css</file>
-            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/presentation/homepage.php</file>
-            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/presentation/kinderdagverblijf.php</file>
-            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/entities/articleimage.class.php</file>
-            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/data/articleimageDAO.php</file>
-            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/presentation/historiek.php</file>
-            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/presentation/middagopvang.php</file>
-            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/presentation/locked/latestposts.php</file>
-            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/business/imageservice.php</file>
-            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/upload.php</file>
+            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/entities/kind.class.php</file>
+            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/business/gezinservice.php</file>
+            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/entities/gezin.class.php</file>
+            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/entities/huisdokter.class.php</file>
+            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/presentation/locked/head.php</file>
+            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/business/kindservice.php</file>
+            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/data/gezinDAO.php</file>
+            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/presentation/inschrijving/gezin.php</file>
+            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/business/huisdokterservice.php</file>
+            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/data/userDAO.php</file>
+            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/logout.php</file>
+            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/presentation/locked/login.php</file>
+            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/inschrijven.php</file>
+            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/js/form.js</file>
+            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/entities/user.class.php</file>
             <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/index.php</file>
-            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/presentation/addarticleimage.php</file>
-            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/data/newspostDAO.php</file>
-            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/presentation/locked/randompictures.php</file>
-            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/data/dbconfig.class.php</file>
-            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/entities/newspost.class.php</file>
-            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/presentation/ibo.php</file>
-            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/presentation/visie.php</file>
+            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/presentation/inschrijving/kind.php</file>
+            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/presentation/inschrijving/kindformKDV.php</file>
+            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/data/kindDAO.php</file>
+            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/data/huisdokterDAO.php</file>
+            <file>file:/C:/xampp/htdocs/kornuit/kornuitphp/presentation/inschrijving/kindformIBO.php</file>
         </group>
     </open-files>
 </project-private>
